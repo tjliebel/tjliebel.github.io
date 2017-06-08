@@ -5,9 +5,19 @@
  */
 
 body {
-	margin-top: 0px;
-	margin-bottom: 0px;
+	margin-top: 50px;
+	margin-bottom: 50px;
 	background: none;
+}
+
+section {
+    min-height: 1000px;
+    position: relative;
+    width: 100% !important;
+    min-width: 1000px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
 }
 
 .parallax-container {
@@ -22,4 +32,15 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+section:nth-of-type(1){background:whitesmoke;height:1200px;}
+
+#mountainbg>div:nth-of-type(1) {
+    background: url(/assets/moraine_lake_and_the_valley_of_the_ten_peaks-wallpaper-3840x2160.jpg) 50% 0 no-repeat fixed;
+    margin: 0;
+    height: 1600px;
+    position:absolute;
+    width:100%;
+    top:0;left:0;
 }
