@@ -5,13 +5,15 @@
  */
 
 body {
-	margin-top: 50px;
-	margin-bottom: 50px;
+	margin-top: 0px;
+	margin-bottom: 0px;
 	background: none;
 }
 
 .parallax-container {
 	height: 2160px;
+	margin-top: 50px;
+	margin-bottom: 50px;
 }
 
 .full {
