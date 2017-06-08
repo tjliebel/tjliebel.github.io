@@ -10,6 +10,10 @@ body {
 	background: none;
 }
 
+.parallax-container {
+	height: 2160px;
+}
+
 .full {
   background: url(/assets/moraine_lake_and_the_valley_of_the_ten_peaks-wallpaper-3840x2160.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
