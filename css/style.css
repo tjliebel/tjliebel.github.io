@@ -26,14 +26,6 @@ section {
 	margin-bottom: 50px;
 }
 
-.full {
-  background: url(/assets/moraine_lake_and_the_valley_of_the_ten_peaks-wallpaper-3840x2160.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
 #mountainbg {
     background: url(/assets/moraine_lake_and_the_valley_of_the_ten_peaks-wallpaper-3840x2160.jpg) 50% 0 no-repeat fixed;
     margin: 0;
@@ -43,4 +35,13 @@ section {
     top:0;left:0;
 		padding-top: 50px;
 
+}
+
+#bottle {
+    background: url(/assets/moraine_lake_and_the_valley_of_the_ten_peaks-wallpaper-3840x2160.jpg) 50% 0 no-repeat fixed;
+    margin: 0;
+    height: 1200px;
+    position:absolute;
+    top:0;left:0;
+    width:100%;
 }
