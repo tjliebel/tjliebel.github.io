@@ -26,16 +26,7 @@
     <link href="css/style.css" rel="stylesheet">
 
 </head>
-<div class="preloader-wrapper big active">
-  <div class="spinner-layer spinner-blue">
-    <div class="circle-clipper left">
-      <div class="circle"></div>
-    </div><div class="gap-patch">
-      <div class="circle"></div>
-    </div><div class="circle-clipper right">
-      <div class="circle"></div>
-    </div>
-  </div>
+
 <body>
   <ul id="dropdown1" class="dropdown-content">
     <li><a href="assets/TroyLiebelResume.pdf" target="_blank">Resume</i></a></li>
@@ -46,21 +37,16 @@
     <li class="divider"></li>
     <li><a href="https://www.linkedin.com/in/troyliebel/" target="_blank">LinkedIn</a></li>
   </ul>
-  <nav>
+  <!-- <nav>
     <div class="nav-wrapper blue-grey">
       <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-      <ul class="right hide-on-med-and-down">
+      <ul class="right">
         <li class="active"><a href="#!">About Me</a></li>
-        <!-- <li><a href="interests.html">Interests</a></li> -->
+        <li><a href="interests.html">Interests</a></li>
         <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Quick Links<i class="material-icons right">arrow_drop_down</i></a></li>
       </ul>
-      <ul class="side-nav" id="mobile-demo">
-        <li><a href="about.html">About Me</a></li>
-        <!-- <li><a href="interests.html">Interests</a></li> -->
-        <li><a href="collapsible.html">Javascript</a></li>
-      </ul>
     </div>
-  </nav>
+  </nav> -->
   <div class="row ">
     <div class="col s12 m6 offset-m3">
       <div class="card blue-grey darken-2">
@@ -83,18 +69,35 @@
     <div class="col s12 m4 offset-m3">
       <div class="card blue-grey darken-3">
         <div class="card-content white-text">
-          <span class="card-title">Languages, Tools, and Skills</span>
-          <p>Fluent C/C++, Python, Java, Git, Atom, OOP, Linux Development Environment, Windows.
-
-          </p>
+          <table class="responsive-table">
+            <thead>
+              <tr>
+                  <th></th>
+                  <th> Languages</th>
+                  <th> Tools and Skills</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td> Fluent</td>
+                <td> C/C++, Python, Java</td>
+                <td> Git, Atom, OOP, Agile/Scrum</td>
+              </tr>
+              <tr>
+                <td> Familiar</td>
+                <td> GoLang, Bash, Erlang</td>
+                <td> Numpy, Hadoop, GDB, Wireshark</td>
+              </tr>
+            </tbody>
+          </table>
         </div>
       </div>
     </div>
     <div class="col s12 m2">
       <div class="card blue-grey darken-4">
          <div class="card-content white-text">
-           <span class="card-title">Contact Info</span>
-           <p>5060 Ledge Lane
+           <span class="card-title">Basic Info</span>
+           <p></br> 5060 Ledge Lane
               </br> Williamsville, NY 14221
               </br> (716) 697 5190
               </br> tjliebel@gmail.com
